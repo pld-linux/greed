@@ -1,0 +1,15 @@
+diff -Naur greed-3.4/Makefile greed-3.4.n/Makefile
+--- greed-3.4/Makefile	2002-07-31 00:04:21.000000000 +0200
++++ greed-3.4.n/Makefile	2008-08-10 18:59:54.000000000 +0200
+@@ -13,9 +13,9 @@
+ 
+ # Prepend "c:" (or whatever drive you use) to the following paths for MSDOS
+ # Location of high score file
+-SFILE=/usr/games/lib/greed.hs
++SFILE=/var/games/greed.scores
+ # Location of game executable
+-BIN=/usr/games
++BIN=/usr/bin
+ 
+ # Flags for use with the Linux ncurses package (recommended)
+ CFLAGS = -O -s -DNOTBSD
