@@ -29,7 +29,7 @@ zgodnie z tradycją gier roguelike, przez symbol @.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__make} CFLAGS=-I/usr/include/ncurses
